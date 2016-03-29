@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4876FF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#4169e1"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+           >
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:background="#4169e1">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"   
+            android:layout_marginRight="5dp"
+            android:background="#ffd148"
+            android:text="@string/add_image"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnDesc"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+             android:layout_weight="1"   
+            android:layout_marginLeft="5dp"           
+            android:background="#ffd148"
+            android:text="@string/add_description"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

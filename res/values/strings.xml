@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">camsave</string>
+    <string name="hello">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="camsave">CAMSAVE</string>
+	 <string name="prompt_password">Active Code</string>
+	 <string name="action_sign_in">Login</string>
+	 <string name="action_desc">Desc</string>
+	 <string name="add_image">Capture Image</string>
+	 <string name="add_description">Upload</string>
+	 <string name="image">Thumbnail</string>
+	 <string name="Desc">Description</string>
+	  <string name="ShortDesc">Short Description</string>
+	 <string name="btupload">Save</string>
+</resources>
